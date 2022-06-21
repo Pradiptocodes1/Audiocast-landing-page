@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  background-image: url("https://i.ibb.co/QKsbqYG/Landing-3.png");
+  background-size: 100%;
+  background-color: #000000;
+  
+  background-color: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Logo {
+  position: absolute;
+  width: 68px;
+  height: 56.23px;
+  left: 24px;
+  top: 23px;
+}
+.Navbar {
+  display: flex;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-left: 120px;
+  margin-top: 24px;
+  justify-content: space-between;
+}
+.Community {
+  margin-right: 700px;
+}
+.ConnectToWallet {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  float: right;
+  margin-right: 150px;
+  margin-top: -28px;
+  transition: all 0.3s ease-in-out;
+}
+.LPContent1 {
+  font-family: "Space Mono", monospace;
+  position: absolute;
+  width: 704px;
+  height: 200px;
+  left: 50px;
+  top: 120px;
+  font-size: 80px;
+  line-height: 100px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: left;
+}
+.Kendrick {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-left: 620px;
+  margin-top: 90px;
+}
+.DiscoverNFT {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 50px;
+  top: 470px;
+  transition: all 0.3s ease-in-out;
+}
+.LPContent2 {
+  position: absolute;
+  width: 592px;
+  height: 84px;
+  left: 130px;
+  top: 470px;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.FooterInfoA{
+  font-family: "JetBrains Mono", monospace;
+  display:flex;
+  font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+letter-spacing: -2px;
+color: rgba(255, 255, 255, 0.7);
+left: 150px;
+margin-top: 20px;
+justify-content: space-between;
+margin-right: 800px;
+margin-left:100px;
+}
+.FooterInfoB{
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  justify-content: space-between;
+margin-right: 800px;
+margin-left:100px;
+margin-top: 10px;
+color: #FFFFFF;
+font-size: 14px;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+
+a:hover{
+  
+  opacity: 0.8;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.Drop::before{
+  display: none;
+  }
+.Drop:hover::after {
+  content: "";
+  position: absolute;
+  left: -50%;
+  height: 3px;
+  margin: 10px 10px;
+  background-color: #580A88;
+  -webkit-animation: lineAnim 1s linear infinite;
+  -moz-animation: lineAnim 1s linear infinite;
+  animation: lineAnim 1s linear infinite;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+@keyframes lineAnim {
+  0% {
+      
+      left: 0%;
+  }
+  50% {
+      left: 10%;
+      width: 4%;
+      right: -150%;
+      
+  }
+  100% {
+      left: 5%;
+      width: 10%;
+      right: 5%;
+      
+  }
+}
+.Marketplace::before{
+  display: none;
+  }
+.Marketplace:hover::after {
+  content: "";
+  position: absolute;
+  left: -50%;
+  height: 3px;
+  margin: 10px 10px;
+  background-color: #580A88;
+  -webkit-animation: lineAnim2 1s linear infinite;
+  -moz-animation: lineAnim2 1s linear infinite;
+  animation: lineAnim2 1s linear infinite;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+@keyframes lineAnim2 {
+  0% {
+      
+      left: 10%;
+  }
+  50% {
+      left: 20%;
+      width: 4%;
+      right: -140%;
+      
+  }
+  100% {
+      left: 7%;
+      width: 19%;
+      right: 9%;
+      
+  }
+}
+.Creator::before{
+  display: none;
+  }
+.Creator:hover::after {
+  content: "";
+  position: absolute;
+  left: -50%;
+  height: 3.5px;
+  margin: 35px 35px;
+  background-color: #580A88;
+  -webkit-animation: lineAnim3 1s linear infinite;
+  -moz-animation: lineAnim3 1s linear infinite;
+  animation: lineAnim3 1s linear infinite;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+@keyframes lineAnim3 {
+  0% {
+      
+    left: 20%;
+}
+50% {
+    left: 29%;
+    width: 5%;
+    right: -90%;
+    
+}
+100% {
+    left: 17%;
+    width: 18%;
+    right: 7%;
+    
+}
+}
+.Community::before{
+  display: none;
+  }
+.Community:hover::after {
+  content: "";
+  position: absolute;
+  left: -50%;
+  height: 3.5px;
+  margin: 35px 35px;
+  background-color: #580A88;
+  -webkit-animation: lineAnim4 1s linear infinite;
+  -moz-animation: lineAnim4 1s linear infinite;
+  animation: lineAnim4 1s linear infinite;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+@keyframes lineAnim4 {
+  0% {
+      
+    left: 30%;
+}
+50% {
+    left: 39%;
+    width: 5%;
+    right: -70%;
+    
+}
+100% {
+    left: 30%;
+    width: 18%;
+    right: 8%;
+    
+}
+
+}
+
+.ConnectToWallet::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+.ConnectToWallet:hover {
+  transform: scale(1.2, 1.2);
+}
+.ConnectToWallet:hover::after {
+  opacity: 1;
+}
+
+.DiscoverNFT::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+.DiscoverNFT:hover {
+  transform: scale(1.2, 1.2);
+}
+.DiscoverNFT:hover::after {
+  opacity: 1;
+}
+
+
+
